@@ -11,10 +11,10 @@ const App = () => {
   return (
     <Provider store={store}>
       <div className="App">
-        {/* <CakeContainer /> */}
-        {/* <HooksCakeContainer /> */}
-        {/* <IceCreamContainer /> */}
-        {/* <WeedContainer /> */}
+        <CakeContainer />
+        <HooksCakeContainer />
+        <IceCreamContainer />
+        <WeedContainer />
         <HooksWeedContainer />
       </div>
     </Provider>
