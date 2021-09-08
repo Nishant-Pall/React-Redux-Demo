@@ -1,0 +1,1 @@
+export const BUY_WEED = 'BUY_WEED';

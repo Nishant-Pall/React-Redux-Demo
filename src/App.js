@@ -4,6 +4,7 @@ import './App.css';
 import store from './redux/store';
 import HooksCakeContainer from './components/HooksCakeContainer';
 import IceCreamContainer from './components/IceCreamContainer';
+import WeedContainer from './components/WeedContainer';
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <div className="App">
         {/* <CakeContainer /> */}
         {/* <HooksCakeContainer /> */}
-        <IceCreamContainer />
+        {/* <IceCreamContainer /> */}
+        <WeedContainer />
       </div>
     </Provider>
   );
